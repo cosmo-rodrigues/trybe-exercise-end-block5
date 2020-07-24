@@ -10,7 +10,7 @@ Vocês devem entender todo o algoritmo JavaScript, assim como as partes CSS e HT
 
 1. Utiliza o algoritmo de criação de pirâmide de asteriscos para gerar a pirâmide da imagem a seguir.
 
-2. A classe `box` do CSS tem `50px` porque esse CSS está assumindo uma pirâmide de base 9, ou seja, com 5 linhas.
+2. Tem a classe `box`. Sua dimensão é de `50px` porque esse CSS está assumindo uma pirâmide de base 9, ou seja, com 5 linhas.
 
 3. Utiliza LocalStorage para a criação do contador de visitas;
 
