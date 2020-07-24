@@ -1,24 +1,24 @@
 # Desafio Bloco 4
 
-Existem dois arquivos, `style.css` e `index.html` para que vocês utilizem como base.
+Existem três arquivos, `script.js`, `style.css` e `index.html` para que vocês utilizem como base.
 
-## Agora é a hora do desafio da pirâmide!
+## Agora é a hora do desafio de entender a pirâmide!
 
-Vocês devem construir todo o algoritmo JavaScript para os arquivos já existentes.
+Vocês devem entender todo o algoritmo JavaScript, assim como as partes CSS e HTML que já existem no repositório.
 
-**Sua página deve:**
+**Sua página:**
 
-1. Utilizar o algoritmo de criação de pirâmide de asteriscos para gerar a pirâmide da imagem a seguir.
+1. Utiliza o algoritmo de criação de pirâmide de asteriscos para gerar a pirâmide da imagem a seguir.
 
 2. A classe `box` do CSS tem `50px` porque esse CSS está assumindo uma pirâmide de base 9, ou seja, com 5 linhas.
 
-3. Utilize LocalStorage para a criação do contador de visitas;
+3. Utiliza LocalStorage para a criação do contador de visitas;
 
-4. Ter a aparência próxima à imagem abaixo;
+4. Tem a aparência próxima à imagem abaixo;
 
-5. Atente-se para às classes CSS `.left`, `.right` e `tri-top`. Elas poderão ajudar na criação da sua pirâmide;
+## Refatorando
 
-6. Lembre-se de utilizar funções.
+O desafio extra é a implementação de modificações que deixem o código mais bem escrito. Usem a imaginação!
 
 ## Orientações de criação de Pull Request:
 
