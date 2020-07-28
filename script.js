@@ -59,7 +59,7 @@ window.onload = function() {
       } else if (lineColumn < controlLeft && lineColumn > controlRight) {
         divLine.appendChild(createBox("box"));
       } else {
-        divLine.appendChild(createBox("empty-box"));
+        divLine.appendChild(createBox("box-empty"));
       }
     }
   }
