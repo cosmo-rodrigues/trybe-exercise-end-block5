@@ -32,11 +32,15 @@ h1 {
   background: darkgreen;
 }
 
-.left {
+/* WARNING */
+/* PERIGO */
+/* DANGEREUX */
+/* Quer ser feliz? Não se preocupa com essa parte. */
+.right {
   background: linear-gradient(to left bottom, white 50%, darkgreen 50%);
 }
 
-.right {
+.left {
   background: linear-gradient(to right bottom, white 50%, darkgreen 50%);
 }
 
@@ -50,6 +54,7 @@ h1 {
   border-bottom: 25px solid darkgreen;
   display: inline-block;
 }
+/* Se você se preocupou, provavelmente não tá feliz mais né? Avisei. */
 
 .box-empty {
   width: 50px;

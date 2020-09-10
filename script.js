@@ -26,12 +26,12 @@ window.onload = function() {
     }  
   }
 
-  // Passa por todos as linhas e preenche os triangulos
+  // Passa por todos as linhas (div com class line) e preenche o triangulo
   function fillTriangle(lines) {
-    for(let i = 0; i < lines.length; i += 1) {
-      fillLine(lines[i]);
-      controlLeft += 1;
-      controlRight -= 1;
+    for(let index = 0; index < lines.length; index += 1) {
+      fillLine(lines[index]);
+      controlRight += 1;
+      controlLeft -= 1;
     }
   }
 
@@ -45,19 +45,9 @@ window.onload = function() {
   // Preenche uma linha
   function fillLine(divLine) {
     for (let lineColumn = 1; lineColumn <= basePyramid; lineColumn += 1) {
-      if(lineColumn === controlLeft && lineColumn === controlRight) {
-        let box = createBox("tri-top");
-        divLine.appendChild(box);
-      } else if(lineColumn === controlLeft) {
+      if(lineColumn >= controlLeft && lineColumn <= controlRight) {
         let box = createBox("box");
-        box.className = `${box.className} left`;
         divLine.appendChild(box);
-      } else if(lineColumn === controlRight) {
-        let box = createBox("box");
-        box.className = `${box.className} right`;
-        divLine.appendChild(box);
-      } else if (lineColumn < controlLeft && lineColumn > controlRight) {
-        divLine.appendChild(createBox("box"));
       } else {
         divLine.appendChild(createBox("box-empty"));
       }
